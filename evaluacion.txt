@@ -1,0 +1,3 @@
+2 sesiones pddl -> informe
+2 sesiones redes bayesianas -> cuestionario
+
