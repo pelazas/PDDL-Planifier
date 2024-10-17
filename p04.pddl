@@ -1,0 +1,13 @@
+(define (problem p03)
+  (:domain blocksworld)
+  (:objects a b c d e - bloque h1 h2 - brazo)
+  (:init
+    (encima_mesa a) (sin_nada_encima a)
+    (encima_mesa b) (sin_nada_encima b)
+    (encima_bloque c a) (sin_nada_encima c)
+    (encima_mesa d) (sin_nada_encima d)
+    (encima_mesa e) (sin_nada_encima e)
+    (brazo_libre h1) (brazo_libre h2)
+  )
+  (:goal (and (encima_bloque a b) (encima_bloque b c) (sin_nada_encima a)))
+)
